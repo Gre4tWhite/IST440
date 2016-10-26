@@ -1,0 +1,22 @@
+html, body {
+    height: 100%
+    width: 100%
+    margin: 0;
+    padding: 0;
+    }
+
+div {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    }
+#weather {
+    top: 0;
+    left: 85%;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#price {
+
+    }
