@@ -18,5 +18,13 @@ div {
 }
 
 #price {
-
+    margin-top: 200px;
+    left: 85%;
+    background-color: green;
     }
+
+#calendar {
+    right: 0;
+    background-color: lightblue;
+    text-align: center;
+}
