@@ -1,4 +1,4 @@
-	  var CLIENT_ID = '951674294337-q2t5lb786tljss2e531p4u4oo3uqm65k.apps.googleusercontent.com';
+	  var CLIENT_ID = 'apps.googleusercontent.com';
 				  
       var SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"];
 				  
