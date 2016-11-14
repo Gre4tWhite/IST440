@@ -48,9 +48,9 @@ div {
   margin: 0 20px;
 }
 
-#price {
+#stocks {
     white-space: pre;
-    height: 100px;
+    height: 250px;
     width: 400px;
 	margin-top: 152px;
 	right: 0;
@@ -58,6 +58,13 @@ div {
     border: 2px solid #99e6ff;
     border-top-style: hidden;
     border-radius: 5px;
+}
+table {
+    margin: 0 auto;
+    }
+
+tr {
+    text-align: center;
 }
 
 #calendar {

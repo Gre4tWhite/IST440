@@ -6,26 +6,29 @@
     <script src="static/jquery.simpleWeather.js"></script>
     <script src="static/weather.js"></script>
     <script src="static/stock.js"></script>
-    <script src="static/calendar.js"></script>
-    <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
+	<script src="static/calendar.js"></script>
+	<script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
     <div id="weather"></div>
-    <div id="price"></div>
-    <div id="authorize-div">
-        <span>Authorize access to Google Calendar</span>
-        <button id="authorize-button" onclick="handleAuthClick(event)">
-            Authorize
-        </button>
-        </div>
-    <div id="calendar"></div>
-    <div id="bottom_phrase">
-		<hr width="75%">
-			<p align="center">
-		<h2>You Look Great!</h2>
-			</p>
+	
+    <div id="stocks">
+		<p>Stocks
+		<table id="price"></table>
+		</p>
 	</div>
+
+	<div id="calendar">
+		<div id="authorize-div">
+			<span>Authorize access to Google Calendar API</span>
+			<!--Button for the user to click to initiate auth sequence -->
+			<button id="authorize-button" onclick="handleAuthClick(event)">
+				Authorize
+			</button>
+		</div>
+	</div>
+	
 </body>
 </html>

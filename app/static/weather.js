@@ -1,5 +1,8 @@
 // v3.1.0
 //Docs at http://simpleweatherjs.com
+// Handcrafted from Boston, MA by James Fleeting
+// @fleetingftw
+
 $(document).ready(function() {
   $.simpleWeather({
     location: 'State College, PA',
