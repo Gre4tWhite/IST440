@@ -1,7 +1,7 @@
 
 var fetch = function(tble, queryString) {
 	console.log("fetched");
-	let _url = "https://www.quandl.com/api/v3/datasets/WIKI/" + queryString + ".json?api_key=5cESzn4hsyeJPnz88zci";
+	let _url = "https://www.quandl.com/api/v3/datasets/WIKI/" + queryString + ".json?api_key=";
     
 	//$(document).ready(function() {
 					  $.ajax ({
